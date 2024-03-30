@@ -7,7 +7,7 @@ public class MyMapTest {
         MyMap<String, String> map = new MyMap<>();
         map.put("A", "1");
         map.put("B", "2");
-        Assertions.assertEquals("2", map.get("B"));
         Assertions.assertEquals("1", map.get("A"));
+        Assertions.assertEquals("2", map.get("B"));
     }
 }
